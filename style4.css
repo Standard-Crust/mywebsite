@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 8%;
+
+    background-color: #020202;
+
+    background-image:
+        linear-gradient(
+            rgba(172, 172, 172, 0.70),
+            rgba(172, 172, 172, 0.70)
+        ),
+        url("scp-logo.png"),
+        radial-gradient(
+            rgba(0, 0, 0, 0.035) 1px,
+            transparent 1px
+        );
+    background-size: 100% 100%, 450px, 5px 5px;
+    background-position: center, center, center;
+    background-repeat:no-repeat, no-repeat, repeat;
+    background-attachment: fixed, fixed, fixed;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 42px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 30px;
+    padding-left: 5px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 20px auto;
+
+}
+
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: #330000;
+   font-style: italic;
+   transition: 
+   color 0.2s ease
+}
+
+a:hover {
+    color: #201;
+    padding: 2px 6px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: #201;
+    cursor: pointer;
+    font-style: oblique;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 20px;
+}
+
+ul {
+    max-width: 950px;
+    margin: 20px auto;
+    padding-left: 35px;
+}
+
+.safe {
+    border-left: 8px solid #2e6b3f;
+}
+
+.euclid {
+    border-left: 8px solid #b8860b;
+}
+
+.keter {
+    border-left: 8px solid #8b0000;
+}
+
+.thaumiel {
+    border-left: 8px solid #4b0082;
+}
+
+.lvl0 {
+    border-left: 6px solid #99FFCC;
+}
+
+.lvl1 {
+    border-left: 6px solid #66FFFF;
+}
+
+.lvl2 {
+    border-left: 6px solid #B266FF;
+}
+
+.lvl3 {
+    border-left: 6px solid #FFB266;
+}
+
+.lvl4 {
+    border-left: 6px solid #CA4040;
+}
+
+.lvl5 {
+    border-left: 6px solid black;
+}
+
+.mtf-card {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 8px solid #000000;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    gap: 30px;
+}
+
+.mtf-emblem {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid #000000;
+}
+
+.mtf-emblem img {
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+.mtf-info {
+    flex: 1;
+}
+
+.mtf-info h3 {
+    margin-top: 0;
+}
+
+.mtf-info p {
+    margin-bottom: 0;
+}
